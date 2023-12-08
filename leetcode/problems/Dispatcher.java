@@ -8,6 +8,8 @@ public class Dispatcher {
         Scanner scanner;
         Solution solution   = new Solution();
         Toolkit toolkit = new Toolkit();
+        System.out.println(solution.reversePrefix("abcdefgh",'g'));
+        //System.out.println(solution.numOfStrings(new String[]{},""));
         //System.out.println(solution.uniqueMorseRepresentations(new String[]{"gin","zen","gig","msg"}));
         //solution.cellsInRange("A1:F1");
         //System.out.println(solution.toLowerCase("Hi ALL HOw ArE You"));
